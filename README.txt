@@ -1,7 +1,7 @@
 Scribbler 
 By Marina Neumann
 
-This application will allow you to keep track of your daily and weekly goals.  
+Designed as a daily/weekly organizer. Used to keep track of appointments, make to-do lists and scribble notes. 
 
 
 Copyright 2015
