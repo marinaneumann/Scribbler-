@@ -18,32 +18,46 @@
 			<p>Scribble<p>
 	</div> <!--Closes sidebar--> 
 
-	<div class="daily">
-		<div class="col-md-6">
-			<h2 class ="to-do"><em> To Do's:</em></h2>
-				<ul class="to-do-list">
-					<li>ToDo#1</li>
-				</ul>
-			<h2 class="notes"><em> Notes:</em></h2>
-				<ul class="notes-list">
-					<li>Note#1</li>
-				</ul>
-		</div> <!--Closes 1st column in Daily-->
+	<div class="tabs">
 
-		<div class="col-md-6">
-			<h2 class="scheduled"><em>Scheduled Appointments:</em></h2> 
-				<ul class="scheduled-list">
-					<li>Scheduled Appointment #1</li>
-				</ul>
-		</div> <!--Closes 2nd colum in Daily-->  
-	</div><!---Closes daily scribbles tab-->
+		<ul class="tab-links">
+			<li class="active"><a href="tab1">Tab #1</a></li>
+      <li><a href="tab2">Tab #2</a></li>
+      <li><a href="tab3">Tab #3</a></li>
+		</ul>
 
 
+		<div class="tab-content">
+			<div id="daily-tab" class="tab active">
+				<div class="col-md-6">
+					<h2 class ="to-do"><em> To Do's:</em></h2>
+						<ul class="to-do-list">
+							<li>ToDo#1</li>
+						</ul>
+					<h2 class="notes"><em> Notes:</em></h2>
+						<ul class="notes-list">
+							<li>Note#1</li>
+						</ul>
+				</div> <!--Closes 1st column in Daily-->
 
-	<div class="weekly">
-	</div><!---Closes weekly scribbles-->
+				<div class="col-md-6">
+					<h2 class="scheduled"><em>Scheduled Appointments:</em></h2> 
+						<ul class="scheduled-list">
+							<li>Scheduled Appointment #1</li>
+						</ul>
+				</div> <!--Closes 2nd colum in Daily-->  
+			</div><!---Closes daily scribbles tab-->
 
 
+			<div id="weekly-tab" class="tab">
+
+			</div><!---Closes weekly scribbles tab-->
+
+			<div id="monthly-tab" class="tab">
+			</div><!--Closes monthly scribbles tab-->
+
+		</div> <!--Closes tab content--> 
+	</div> <!--Closes tabs--> 
 </body>
 
 </html>
